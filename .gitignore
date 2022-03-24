@@ -2,3 +2,5 @@ node_modules/
 /dist
 artifacts
 cache
+contracts
+ERC721A

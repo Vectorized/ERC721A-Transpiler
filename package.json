@@ -13,10 +13,7 @@
     "upgrade-safe-transpiler": "dist/cli.js"
   },
   "scripts": {
-    "test": "hardhat compile && ava",
-    "test:watch": "hardhat compile && ava -w",
     "compile": "tsc",
-    "prepare": "rimraf dist && npm run compile",
     "watch": "tsc -w",
     "lint": "eslint . --ignore-path .gitignore --max-warnings 0"
   },
@@ -42,7 +39,8 @@
     "minimatch": "^5.0.0",
     "minimist": "^1.2.5",
     "solidity-ast": "^0.4.13",
-    "source-map-support": "^0.5.19"
+    "source-map-support": "^0.5.19", 
+    "@openzeppelin/contracts": "^4.4.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.165",

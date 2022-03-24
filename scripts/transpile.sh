@@ -21,7 +21,7 @@ npx hardhat compile;
 # the transpiler will regenerate based on the artifacts.
 rm -r contracts;
 # Compile the typescript.
-npx tsc;
+npx tsc --skipLibCheck;
 # Run the transpiler.
 node dist/cli.js;
 
